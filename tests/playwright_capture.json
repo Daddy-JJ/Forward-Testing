@@ -1,0 +1,937 @@
+{
+  "console": [
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    },
+    {
+      "type": "warning",
+      "text": "cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation",
+      "location": {
+        "url": "https://cdn.tailwindcss.com/",
+        "line": 63,
+        "column": 1710,
+        "lineNumber": 63,
+        "columnNumber": 1710
+      }
+    }
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:8000/login.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153702.2343948
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153702.25062
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153702.251137
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153702.2514958
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153702.2519512
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153702.2521842
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153702.404592
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153702.624674
+    },
+    {
+      "url": "https://unpkg.com/lucide@1.23.0/dist/umd/lucide.min.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153702.625464
+    },
+    {
+      "url": "http://127.0.0.1:8000/user-dashboard.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153703.54688
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153703.557981
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.5586681
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.559498
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.5602932
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.5608928
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153703.601792
+    },
+    {
+      "url": "http://127.0.0.1:8000/admin-dashboard.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153703.6530712
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153703.657702
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.658307
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.658684
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.6590028
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153703.6593559
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153703.705312
+    },
+    {
+      "url": "http://127.0.0.1:8000/user-dashboard.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153704.9146721
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153704.918886
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153704.919754
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153704.920437
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153704.9211252
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153704.921624
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153704.973194
+    },
+    {
+      "url": "http://127.0.0.1:8000/login.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153705.031936
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153705.034862
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.035583
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.036042
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.0364878
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.037416
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153705.086257
+    },
+    {
+      "url": "http://127.0.0.1:8000/login.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153705.100016
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153705.103856
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.1043148
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.104678
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.1050282
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.1054962
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153705.160233
+    },
+    {
+      "url": "http://127.0.0.1:8000/admin-dashboard.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153705.816467
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153705.822697
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.8235872
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.8240771
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.824526
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.824915
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153705.877645
+    },
+    {
+      "url": "http://127.0.0.1:8000/user-dashboard.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153705.8963552
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153705.8999722
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.90047
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.900906
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.9012392
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153705.901772
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153705.957979
+    },
+    {
+      "url": "http://127.0.0.1:8000/admin-dashboard.html",
+      "method": "GET",
+      "resourceType": "document",
+      "timestamp": 1783153707.149665
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "timestamp": 1783153707.153389
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153707.153845
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153707.1541948
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153707.154512
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "timestamp": 1783153707.155066
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "method": "GET",
+      "resourceType": "font",
+      "timestamp": 1783153707.203696
+    }
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8000/login.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.242114
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.255163
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.397878
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 302,
+      "ok": false,
+      "timestamp": 1783153702.404365
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.4735801
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.520554
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 302,
+      "ok": false,
+      "timestamp": 1783153702.625077
+    },
+    {
+      "url": "https://unpkg.com/lucide@1.23.0/dist/umd/lucide.min.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.750293
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153702.757754
+    },
+    {
+      "url": "http://127.0.0.1:8000/user-dashboard.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.5492868
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.558332
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.5590909
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.559859
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.560593
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.5610712
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.602119
+    },
+    {
+      "url": "http://127.0.0.1:8000/admin-dashboard.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.6546822
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.658096
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.658477
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.658825
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.659185
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.65949
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153703.705684
+    },
+    {
+      "url": "http://127.0.0.1:8000/user-dashboard.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.9158242
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.9193852
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.91998
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.920753
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.921333
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.921786
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153704.973781
+    },
+    {
+      "url": "http://127.0.0.1:8000/login.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.032408
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.0352619
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.035823
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.0361888
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.036927
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.037666
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.086616
+    },
+    {
+      "url": "http://127.0.0.1:8000/login.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.100823
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.1041138
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.10448
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.104843
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.105312
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.10563
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.160846
+    },
+    {
+      "url": "http://127.0.0.1:8000/admin-dashboard.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.817324
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.8230999
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.823814
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.824308
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.824726
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.825058
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.878556
+    },
+    {
+      "url": "http://127.0.0.1:8000/user-dashboard.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.897025
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.900202
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.900692
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.90105
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.9014761
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.901941
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153705.958227
+    },
+    {
+      "url": "http://127.0.0.1:8000/admin-dashboard.html",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.1503072
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.153633
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.154016
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/tailwind-config.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.154332
+    },
+    {
+      "url": "https://unpkg.com/lucide@latest",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.1546948
+    },
+    {
+      "url": "http://127.0.0.1:8000/assets/js/app.js",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.1552372
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "status": 200,
+      "ok": true,
+      "timestamp": 1783153707.204436
+    }
+  ],
+  "events": [
+    {
+      "note": "navigate: login",
+      "time": 1783153702.223131
+    },
+    {
+      "note": "submit: user login",
+      "time": 1783153702.8940039
+    },
+    {
+      "note": "landed: user-dashboard",
+      "time": 1783153703.6511471
+    },
+    {
+      "note": "navigate: admin-dashboard as user",
+      "time": 1783153703.6511471
+    },
+    {
+      "note": "redirected-back-to-user",
+      "time": 1783153704.988106
+    },
+    {
+      "note": "click sign-out",
+      "time": 1783153704.988107
+    },
+    {
+      "note": "signed-out",
+      "time": 1783153705.09861
+    },
+    {
+      "note": "navigate: login for admin",
+      "time": 1783153705.0986109
+    },
+    {
+      "note": "submit: admin login",
+      "time": 1783153705.181681
+    },
+    {
+      "note": "landed: admin-dashboard",
+      "time": 1783153705.894249
+    },
+    {
+      "note": "navigate: user-dashboard as admin",
+      "time": 1783153705.89425
+    },
+    {
+      "note": "redirected-back-to-admin",
+      "time": 1783153707.2178838
+    }
+  ]
+}

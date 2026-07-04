@@ -57,4 +57,4 @@ Source of Truth (SOT) Driven
 - Gunakan komentar kode ringan hanya bila membantu pemahaman tim.
 - Simpan markup HTML semantik dan pastikan elemen navigasi dapat diakses.
 - Validasi setiap halaman di browser modern tanpa bergantung pada framework berat.
-- Hindari `inline script` jika bisa dipisah ke file `app.js` di `Frontend/assets/js/`.
+- Hindari `inline script` jika bisa dipisah ke file `app.js` di `assets/js/`.
