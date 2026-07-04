@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Forward-test trading strategies and review performance before committing capital.">
+  <title>Forward Testing Strategy Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/js/tailwind-config.js"></script>
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="Home" class="bg-white font-sans text-slate-950 antialiased">
+  <div data-site-header></div>
+  <main>
+    <section class="relative min-h-[650px] overflow-hidden border-b border-slate-200 bg-slate-50">
+      <img src="assets/images/forward-testing-dashboard.png" alt="Forward Testing dashboard showing strategy metrics, equity curve, and recent test results" class="absolute inset-y-0 right-0 h-full w-full object-cover object-left md:w-3/4 md:object-left">
+      <div class="absolute inset-0 bg-white/90 md:right-auto md:w-1/2"></div>
+      <div class="relative mx-auto flex min-h-[650px] max-w-7xl items-start px-4 pb-20 pt-20 sm:px-6 md:items-center md:py-24 lg:px-8">
+        <div class="max-w-xl">
+          <p class="mb-4 text-sm font-semibold text-blue-700">Forward testing, made measurable</p>
+          <h1 class="text-4xl font-bold leading-tight text-slate-950 sm:text-5xl">Forward Testing Strategy Platform</h1>
+          <p class="mt-6 max-w-lg text-lg leading-8 text-slate-600">Track live strategy behavior, compare results, and build evidence before you commit capital.</p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="register.html" class="rounded-md bg-blue-600 px-5 py-3 text-center text-sm font-semibold text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">Start forward testing</a>
+            <a href="features.html" class="rounded-md border border-slate-300 bg-white px-5 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-slate-50">Explore features</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 sm:py-24" aria-labelledby="workflow-title">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl">
+          <p class="text-sm font-semibold text-blue-700">A clearer testing workflow</p>
+          <h2 id="workflow-title" class="mt-2 text-3xl font-bold text-slate-950">From strategy idea to reviewed evidence</h2>
+        </div>
+        <div class="mt-12 grid gap-8 md:grid-cols-3">
+          <article class="border-t-2 border-blue-600 pt-6"><i data-lucide="flask-conical" class="h-6 w-6 text-blue-600" aria-hidden="true"></i><h3 class="mt-4 text-lg font-semibold">Run forward tests</h3><p class="mt-2 text-sm leading-6 text-slate-600">Observe strategies against live market conditions and keep test results organized.</p></article>
+          <article class="border-t-2 border-green-600 pt-6"><i data-lucide="chart-line" class="h-6 w-6 text-green-600" aria-hidden="true"></i><h3 class="mt-4 text-lg font-semibold">Review performance</h3><p class="mt-2 text-sm leading-6 text-slate-600">Compare equity, drawdown, win rate, and other performance signals in one place.</p></article>
+          <article class="border-t-2 border-amber-500 pt-6"><i data-lucide="notebook-tabs" class="h-6 w-6 text-amber-600" aria-hidden="true"></i><h3 class="mt-4 text-lg font-semibold">Keep a decision record</h3><p class="mt-2 text-sm leading-6 text-slate-600">Connect watchlists, trade journal entries, reports, and portfolio context.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-slate-950 py-16 text-white">
+      <div class="mx-auto flex max-w-7xl flex-col gap-8 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+        <div><h2 class="text-2xl font-bold">Test the strategy, not your conviction.</h2><p class="mt-2 text-slate-300">Create an account and start building a measurable forward-testing record.</p></div>
+        <a href="register.html" class="shrink-0 rounded-md bg-white px-5 py-3 text-center text-sm font-semibold text-slate-950 hover:bg-slate-100">Create account</a>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>
