@@ -1,0 +1,840 @@
+openapi: 3.0.3
+info:
+  title: Forward Testing DB API
+  version: 1.0.0
+  description: API spec untuk integrasi database Forward Testing dengan Postman.
+servers:
+  - url: http://localhost:3000/api
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: API is healthy
+  /auth/register:
+    post:
+      summary: Register user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+                full_name:
+                  type: string
+      responses:
+        '201':
+          description: User created
+  /auth/login:
+    post:
+      summary: Login user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Login success
+  /users:
+    get:
+      summary: List users
+      parameters:
+        - in: query
+          name: role_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+                full_name:
+                  type: string
+                role_id:
+                  type: integer
+      responses:
+        '201':
+          description: Created
+  /users/{id}:
+    get:
+      summary: Get user by id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    put:
+      summary: Update user
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                full_name:
+                  type: string
+                is_active:
+                  type: integer
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete user
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /roles:
+    get:
+      summary: List roles
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create role
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /permissions:
+    get:
+      summary: List permissions
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create permission
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /role-permissions:
+    post:
+      summary: Assign permission to role
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                role_id:
+                  type: integer
+                permission_id:
+                  type: integer
+      responses:
+        '201':
+          description: Assigned
+  /watchlist:
+    get:
+      summary: List watchlist items
+      parameters:
+        - in: query
+          name: user_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Add watchlist item
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                symbol:
+                  type: string
+                name:
+                  type: string
+                exchange:
+                  type: string
+                currency:
+                  type: string
+                notes:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /watchlist/{id}:
+    get:
+      summary: Get watchlist item by id
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    put:
+      summary: Update watchlist item
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                exchange:
+                  type: string
+                currency:
+                  type: string
+                notes:
+                  type: string
+                is_active:
+                  type: integer
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete watchlist item
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /price-observations:
+    get:
+      summary: List price observations
+      parameters:
+        - in: query
+          name: watchlist_item_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Add price observation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                watchlist_item_id:
+                  type: integer
+                provider:
+                  type: string
+                symbol:
+                  type: string
+                company_name:
+                  type: string
+                exchange:
+                  type: string
+                currency:
+                  type: string
+                market_date:
+                  type: string
+                  format: date
+                close_price:
+                  type: number
+                status:
+                  type: string
+                provider_response:
+                  type: object
+      responses:
+        '201':
+          description: Created
+  /price-observations/{id}:
+    put:
+      summary: Update price observation
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                status:
+                  type: string
+                close_price:
+                  type: number
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete price observation
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /ai-previews:
+    get:
+      summary: List AI extraction previews
+      parameters:
+        - in: query
+          name: user_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create AI extraction preview
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                original_text:
+                  type: string
+                extracted_json:
+                  type: object
+      responses:
+        '201':
+          description: Created
+  /ai-previews/{id}:
+    put:
+      summary: Update AI extraction preview
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                is_confirmed:
+                  type: integer
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete AI extraction preview
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /trade-journals:
+    get:
+      summary: List trade journal entries
+      parameters:
+        - in: query
+          name: user_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create trade journal entry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                title:
+                  type: string
+                entry_date:
+                  type: string
+                  format: date
+                notes:
+                  type: string
+                outcome:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /trade-journals/{id}:
+    get:
+      summary: Get trade journal entry
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    put:
+      summary: Update trade journal entry
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                notes:
+                  type: string
+                outcome:
+                  type: string
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete trade journal entry
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /portfolio:
+    get:
+      summary: List portfolio holdings
+      parameters:
+        - in: query
+          name: user_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Add portfolio holding
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                symbol:
+                  type: string
+                quantity:
+                  type: number
+                average_cost:
+                  type: number
+                currency:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /portfolio/{id}:
+    get:
+      summary: Get portfolio holding
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    put:
+      summary: Update portfolio holding
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                quantity:
+                  type: number
+                average_cost:
+                  type: number
+                currency:
+                  type: string
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete portfolio holding
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /provider-job-runs:
+    get:
+      summary: List provider job runs
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create provider job run
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                provider:
+                  type: string
+                job_type:
+                  type: string
+                start_time:
+                  type: string
+                  format: date-time
+                status:
+                  type: string
+                context_json:
+                  type: object
+      responses:
+        '201':
+          description: Created
+  /provider-job-runs/{id}:
+    put:
+      summary: Update provider job run
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                completion_time:
+                  type: string
+                  format: date-time
+                status:
+                  type: string
+                provider_status_code:
+                  type: integer
+                failure_reason:
+                  type: string
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete provider job run
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /admin/sections:
+    get:
+      summary: List admin page sections
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create admin page section
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                slug:
+                  type: string
+                title:
+                  type: string
+                body:
+                  type: string
+                is_active:
+                  type: integer
+      responses:
+        '201':
+          description: Created
+  /admin/sections/{slug}:
+    get:
+      summary: Get admin page section
+      parameters:
+        - in: path
+          name: slug
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+    put:
+      summary: Update admin page section
+      parameters:
+        - in: path
+          name: slug
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                body:
+                  type: string
+                is_active:
+                  type: integer
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete admin page section
+      parameters:
+        - in: path
+          name: slug
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Deleted
+  /subscription-plans:
+    get:
+      summary: List subscription plans
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create subscription plan
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                price:
+                  type: number
+                billing_interval:
+                  type: string
+                description:
+                  type: string
+                is_active:
+                  type: integer
+      responses:
+        '201':
+          description: Created
+  /subscription-plans/{id}:
+    put:
+      summary: Update subscription plan
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                price:
+                  type: number
+                description:
+                  type: string
+                is_active:
+                  type: integer
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete subscription plan
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
+  /user-subscriptions:
+    get:
+      summary: List user subscriptions
+      parameters:
+        - in: query
+          name: user_id
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+    post:
+      summary: Create user subscription
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: integer
+                subscription_plan_id:
+                  type: integer
+                status:
+                  type: string
+      responses:
+        '201':
+          description: Created
+  /user-subscriptions/{id}:
+    put:
+      summary: Update user subscription
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                status:
+                  type: string
+                ended_at:
+                  type: string
+                  format: date-time
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete user subscription
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Deleted
